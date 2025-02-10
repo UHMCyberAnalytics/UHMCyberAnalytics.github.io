@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Getting started with Reverie
+title: Getting started
 permalink: /getting-started/
 ---
 You'll also need to create an env file containing the claude api key. Let me know when you need it and I'll send it over.
