@@ -3,9 +3,7 @@ layout: page
 title: Getting started
 permalink: /getting-started/
 ---
-You'll also need to create an env file containing the claude api key. Let me know when you need it and I'll send it over.
 
-At this point, you should be good to run the program by running python main.py
 ### Step 1) Make sure you have pip and python installed on your computer.
 
 
@@ -29,3 +27,4 @@ pip install -r requirements.txt
 
 You must also create a .env file with a Claude AI key and a NewsAI key
 
+## At this point, you should be good to run the program by running python main.py
