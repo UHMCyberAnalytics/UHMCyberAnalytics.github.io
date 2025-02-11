@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 ## Who Are We
-We are a student group project consisting of Ryder Shintaku, Adam Winfield-Smith, and Sam Doan. Our Group is sponsored by Mehdi Tarrit Mirakhorli and assited by Derek Garcia. 
+We are a student group project consisting of [Ryder Shintaku](https://github.com/rydershintaku), [Adam Winfield-Smith](https://www.linkedin.com/in/adamwinsmith/), and [Sam Doan](https://www.linkedin.com/in/doansam/). Our Group is sponsored by [Mehdi Tarrit Mirakhorli]() and assisted by [Derek Garcia](https://www.linkedin.com/in/derek-garcia/). 
 
 ## Background
 
