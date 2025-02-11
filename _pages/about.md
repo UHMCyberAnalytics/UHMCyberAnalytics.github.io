@@ -3,27 +3,18 @@ layout: page
 title: About
 permalink: /about/
 ---
+## Who Are We
+We are a student group project consisting of Ryder Shintaku, Adam Winfield-Smith, and Sam Doan. Our Group is sponsored by Mehdi Tarrit Mirakhorli and assited by Derek Garcia. 
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
+## Background
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+In recent years, there has been a significant rise in cyber threats posed by malicious state actors, commonly referred to as Advanced Persistent Threats (APTs). These sophisticated and well-resourced groups are increasingly targeting critical infrastructure and government systems, with a notable surge in attacks against the United States government originating from China-based threat actors. Among the most prominent APT groups are Salt Typhoon, Volt Typhoon, and Silk Typhoon, which have been actively exploiting vulnerabilities to infiltrate protected systems.
 
-## Features
+These APTs leverage a combination of legacy software, system misconfigurations, and unpatched software vulnerabilities to gain unauthorized access to sensitive networks. Their operations are characterized by stealth, persistence, and a high degree of coordination, enabling them to maintain long-term access to compromised systems while evading detection. The growing frequency and complexity of these attacks underscore the urgent need for enhanced cybersecurity measures to defend against these evolving threats.
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
+## Our Goal
 
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+To combat this issue effectively we developed a tool capable of scraping and aggregating data related to Typhoon Actors and their activities. By collecting and analyzing this data, it can be passed to Large Language Models (LLMs) to generate detailed, actionable intelligence reports. These reports would provide insights into the tactics, techniques, and procedures (TTPs) employed by these threat actors, enabling cybersecurity professionals to identify vulnerabilities, predict potential attack vectors, and implement proactive defense strategies. Such a tool would not only enhance situational awareness but also empower organizations to stay ahead of these persistent and evolving threats.
+## Features 
+
+- (TBD)
