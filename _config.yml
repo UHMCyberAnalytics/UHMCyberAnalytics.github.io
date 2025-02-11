@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Cyber Analytics
+name: UHM Cyber Analytics
 
 # Name of the author
 author: Sam Doan, Adam Winfield-Smith, Ryder Shintaku
@@ -21,7 +21,7 @@ avatar: /images/uhlogo.webp
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: amit.d.merchant@gmail.com
+  email:
   facebook:
   flickr:
   github: Cyber-Analytics-1/Cyber-Analytics-1.github.io
@@ -29,7 +29,7 @@ footer-links:
   linkedin: 
   pinterest:
   rss: rss
-  twitter: amit_merchant
+  twitter:
   stackoverflow: 
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
