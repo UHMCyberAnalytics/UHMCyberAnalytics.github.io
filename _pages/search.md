@@ -22,28 +22,26 @@ permalink: /search/
                 <p>{excerpt}</p>
             </div>
         `,
-        json: '{{ site.baseurl }}/search.json',
+        json: '{{ site.url }}{{ site.baseurl }}/search.json',
         filter: function(results, query) {
-            // Filter results to include matches in title OR content
+            query = query.toLowerCase();
             return results.filter(function(item) {
-                const titleMatch = item.title.toLowerCase().includes(query.toLowerCase());
-                const contentMatch = item.content.toLowerCase().includes(query.toLowerCase());
+                const titleMatch = item.title.toLowerCase().includes(query);
+                const contentMatch = item.content ? item.content.toLowerCase().includes(query) : false;
                 return titleMatch || contentMatch;
             });
         },
-        templateMiddleware: function(prop, value, template) {
-            // Add an excerpt of the matching content to the template
+        templateMiddleware: function(prop, value) {
             if (prop === 'excerpt') {
                 const query = document.getElementById('search-input').value.toLowerCase();
-                const content = value.toLowerCase();
+                const content = (value || "").toLowerCase();
                 const index = content.indexOf(query);
                 if (index !== -1) {
-                    // Show a snippet of the content around the match
                     const start = Math.max(0, index - 50);
                     const end = Math.min(content.length, index + query.length + 50);
                     return '...' + content.slice(start, end) + '...';
                 }
-                return '';
+                return 'No preview available.';
             }
             return value;
         }
