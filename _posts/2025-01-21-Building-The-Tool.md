@@ -3,6 +3,7 @@ layout: post
 title:  Building The Tool
 categories: [HTML,Code]
 ---
+![img](https://github.com/Cyber-Analytics-1/Cyber-Analytics-1.github.io/blob/master/images/pipline.png?raw=true)
 
 This post demonstrate the use of code snippets in the theme. The code snippets are powered by [Pygments](http://pygments.org/) and the code theme that is been used in Reverie is called [Dracula](https://draculatheme.com/).
 
