@@ -1,9 +1,9 @@
 ---
 layout: post
-title: GUI Desgin
-published: false
+title: GUI Design
 ---
 
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/e50a73c0ac713086e534190893733d45831bd45b/images/GUIdemo.png?raw=true)
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
 ## Some great heading (h2)
