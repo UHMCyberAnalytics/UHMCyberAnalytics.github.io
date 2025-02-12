@@ -1,6 +1,8 @@
-def print(param):
-    passuilding The Tool
 ---
+layout: post
+title:  Building The Tool
+---
+
 ![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/tree/master/images/pipline.png?raw=true)
 
 ## Week 1
