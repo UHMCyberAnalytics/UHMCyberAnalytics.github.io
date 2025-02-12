@@ -2,7 +2,7 @@
 layout: post
 title:  Building The Tool
 ---
-![img](https://github.com/Cyber-Analytics-1/Cyber-Analytics-1.github.io/blob/master/images/pipline.png?raw=true)
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/tree/master/images/pipline.png?raw=true)
 
 ## Week 1
 
