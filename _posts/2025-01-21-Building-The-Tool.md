@@ -4,7 +4,9 @@ title:  Building The Tool
 ---
 ![img](https://github.com/Cyber-Analytics-1/Cyber-Analytics-1.github.io/blob/master/images/pipline.png?raw=true)
 
-This post demonstrate the use of code snippets in the theme. The code snippets are powered by [Pygments](http://pygments.org/) and the code theme that is been used in Reverie is called [Dracula](https://draculatheme.com/).
+## Week 1
+
+The first week of our project we discussed which Large Language Model (LLM) we wanted to use in our program. We only needed the LLM to do basic functions and needed it to be free. With these in mind we decided to use Claude AI.
 
 This is a raw snippet:
 
