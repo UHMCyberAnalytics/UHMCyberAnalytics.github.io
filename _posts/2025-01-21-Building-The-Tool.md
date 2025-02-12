@@ -1,7 +1,7 @@
 def print(param):
     passuilding The Tool
 ---
-![img](images/pipline.png?raw=true)
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/tree/master/images/pipline.png?raw=true)
 
 ## Week 1
 
