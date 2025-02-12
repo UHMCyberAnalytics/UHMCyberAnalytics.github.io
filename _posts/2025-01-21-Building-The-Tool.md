@@ -6,8 +6,11 @@ title:  Building The Tool
 
 ## Week 1
 
-The first week of our project we discussed which Large Language Model (LLM) we wanted to use in our program. We only needed the LLM to do basic functions and needed it to be free. With these in mind we decided to use Claude AI.
+The first week of our project we discussed which Large Language Model (LLM) we wanted to use in our program. We only needed the LLM to do basic functions and what web scraping tools is best to use. We considered using  [Jina AI](https://jina.ai/), [Crawl4AI](https://crawl4ai.com/mkdocs/), and [llama 3.2 3B](https://www.llama.com/).
 
+## Week 2
+
+We discussed the possibilities of fine-tuning whichever AI model we used, but that constraints us to which AI models
 This is a raw snippet:
 
 ```
