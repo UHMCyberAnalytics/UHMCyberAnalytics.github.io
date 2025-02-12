@@ -1,12 +1,11 @@
+def print(param):
+    passuilding The Tool
 ---
-layout: post
-title:  Building The Tool
----
-![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/tree/master/images/pipline.png?raw=true)
+![img](images/pipline.png?raw=true)
 
 ## Week 1
 
-The first week of our project we discussed which Large Language Model (LLM) we wanted to use in our program. We only needed the LLM to do basic functions and what web scraping tools is best to use. We considered using  [Jina AI](https://jina.ai/), [Crawl4AI](https://crawl4ai.com/mkdocs/), and [llama 3.2 3B](https://www.llama.com/).
+In the first week of our project, we discussed which Large Language Model (LLM) we wanted to use in our program. We only needed the LLM to do basic functions and what web scraping tools are best to use. We considered using [Jina AI](https://jina.ai/), [Crawl4AI](https://crawl4ai.com/mkdocs/), and [llama 3.2 3B](https://www.llama.com/).
 
 ## Week 2
 
