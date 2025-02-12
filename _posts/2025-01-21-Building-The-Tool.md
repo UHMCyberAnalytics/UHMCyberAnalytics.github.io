@@ -11,7 +11,11 @@ In the first week of our project, we discussed which Large Language Model (LLM) 
 
 ## Week 2
 
-After discussing which AI models to use with fine-tuning, we decided to use [Claude AI](https://www.anthropic.com/claude) along with RAG 
+After discussing which AI models to use with fine-tuning, we decided on [Claude AI](https://www.anthropic.com/claude) along with Crawl4AI. For our first test run, we included only one website to gather information and evaluate whether our project was functioning properly.
+
+## Week 3
+
+Implemented RAG to convert crawled content into a Facebook AI Similarity Search (FAISS) vector database for similarity-based retrieval. We also integrated the News API, allowing us to specify the number of websites our program should analyze for reporting. This eliminates the need for manually searching for news articles and making direct HTTP requests.
 
 This is a raw snippet:
 
