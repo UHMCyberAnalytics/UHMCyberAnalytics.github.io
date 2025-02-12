@@ -10,7 +10,8 @@ The first week of our project we discussed which Large Language Model (LLM) we w
 
 ## Week 2
 
-We discussed the possibilities of fine-tuning whichever AI model we used, but that constraints us to which AI models
+After discussing which AI models to use with fine-tuning, we decided to use [Claude AI](https://www.anthropic.com/claude) along with RAG 
+
 This is a raw snippet:
 
 ```

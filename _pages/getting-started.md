@@ -25,6 +25,6 @@ To install dependencies you must run
 
 pip install -r requirements.txt
 
-You must also create a .env file with a Claude AI key and a NewsAI key
+You must also create a .env file with a Claude API key and a News API key
 
 ## At this point, you should be good to run the program by running python main.py
