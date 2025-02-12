@@ -3,7 +3,7 @@ layout: post
 title:  Building The Tool
 ---
 
-![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/tree/master/images/pipline.png?raw=true)
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/3e9e10437d7eaa7b068ca25b9ee5741eb07d39d9/images/pipline.png?raw=true)
 
 ## Week 1
 
