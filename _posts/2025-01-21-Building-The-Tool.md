@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Building The Tool
-categories: [HTML,Code]
 ---
 ![img](https://github.com/Cyber-Analytics-1/Cyber-Analytics-1.github.io/blob/master/images/pipline.png?raw=true)
 
