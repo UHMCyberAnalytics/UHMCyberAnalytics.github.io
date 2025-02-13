@@ -27,11 +27,11 @@ followed by:
 ```
 myenv/Scripts/Activate
 ```
-for windows ^
+for windows
 ```
 source myenv/bin/activate
 ```
-for mocOS/Linux ^
+for mocOS/Linux
 
 ### Step 4) Install dependencies
 
