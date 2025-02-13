@@ -13,7 +13,7 @@ In the first week of our project, we discussed which Large Language Model (LLM) 
 
 After discussing which AI models to use with fine-tuning, we decided on [Claude AI](https://www.anthropic.com/claude) along with Crawl4AI. For our first test run, we included only one website to gather information and evaluate whether our project was functioning properly.
 
-This is a Python for AI Analysis with our LLM which is Claude in this case:
+AI Analysis with our LLM which is Claude in this case:
 
 ```python
 async def analyze_with_claude(query: str, context: list[str]):
@@ -30,7 +30,7 @@ async def analyze_with_claude(query: str, context: list[str]):
 Implemented RAG to convert crawled content into a Facebook AI Similarity Search (FAISS) vector database for similarity-based retrieval. We also integrated the News API, allowing us to specify the number of websites our program should analyze for reporting. This eliminates the need for manually searching for news articles and making direct HTTP requests.
 
 
-This is a Python for fetching News Articles:
+Fetching News Articles:
 
 ```python
 async def get_news_articles(query: str, num_articles: int = 5):
@@ -41,7 +41,7 @@ async def get_news_articles(query: str, num_articles: int = 5):
         print(f"News API error: {e}")
         return []
 ```
-This is a Python for the RAG Pipeline Setup:
+RAG Pipeline Setup:
 
 ```python
 def setup_rag(content: str):
