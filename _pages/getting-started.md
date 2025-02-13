@@ -8,13 +8,13 @@ permalink: /getting-started/
 
 You must use Python Version 3.11.9, and create a virtual environment
 
-### Step 1) Clone the Repository
+### Step 2) Clone the Repository
 
 ```
 git clone <url>
 cd <project-folder>
 ``` 
-### Step 2) Create your virtual environment
+### Step 3) Create your virtual environment
 
 In your terminal run
 ```
@@ -26,20 +26,20 @@ followed by
 myenv/Scripts/Activate
 ```
 
-### Step 3) Install dependencies
+### Step 4) Install dependencies
 
 To install dependencies you must run 
 ```
 pip install -r requirements.txt
 ```
 
-### Step 4)
+### Step 5) Create .env file
 
 You must also create a .env file with a Claude API key and a News API key
 
 ```
-NEWS_API_KEY=your_news_api_key =" "
-ANTHROPIC_API_KEY=your_anthropic_api_key = " "
+NEWS_API_KEY=your_news_api_key = <key here>
+ANTHROPIC_API_KEY=your_anthropic_api_key = <key here>
 ```
 
 ## At this point, you should be good to run the program 
