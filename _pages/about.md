@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-## Who Are We
+## Who We Are
 We are a student group project from the University of Hawaii At Mānoa consisting of [Ryder Shintaku](https://github.com/rydershintaku), [Adam Winfield-Smith](https://www.linkedin.com/in/adamwinsmith/), and [Sam Doan](https://www.linkedin.com/in/doansam/). Our Group is sponsored by [Mehdi Tarrit Mirakhorli](https://www.linkedin.com/in/mehdi-tarrit-mirakhorli/) and assisted by [Derek Garcia](https://www.linkedin.com/in/derek-garcia/). 
 
 ## Background
