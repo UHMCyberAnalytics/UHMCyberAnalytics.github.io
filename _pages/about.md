@@ -12,6 +12,4 @@ There have been an increasing number of malicous state actors known as Advanced 
 ## Our Goal
 
 To combat this issue we developed a tool capable of scraping recent and relevant data from the internet and aggregating data related to Typhoon Actors and their activities. By collecting and analyzing this data, it can be passed to Large Language Models (LLMs) to generate detailed intelligence reports. These reports would provide insights into the tactics, techniques, and procedures (TTPs) employed by these threat actors, enabling cybersecurity professionals to identify vulnerabilities, predict potential attack vectors, and implement defense strategies.
-## Features 
 
-- (TBD)
