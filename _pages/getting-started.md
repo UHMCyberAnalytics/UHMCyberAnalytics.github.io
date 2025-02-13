@@ -22,10 +22,15 @@ python3.11 -m venv myenv
 ```
 
 followed by
+
+for windows
 ```
 myenv/Scripts/Activate
 ```
-
+for mocOS/Linux
+```
+source myenv/bin/activate
+```
 ### Step 4) Install dependencies
 
 To install dependencies you must run 
