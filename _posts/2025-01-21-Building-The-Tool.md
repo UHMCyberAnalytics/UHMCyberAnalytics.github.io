@@ -13,41 +13,42 @@ In the first week of our project, we discussed which Large Language Model (LLM) 
 
 After discussing which AI models to use with fine-tuning, we decided on [Claude AI](https://www.anthropic.com/claude) along with Crawl4AI. For our first test run, we included only one website to gather information and evaluate whether our project was functioning properly.
 
+This is a Python for AI Analysis with our LLM which is Claude in this case:
+
+```python
+async def analyze_with_claude(query: str, context: list[str]):
+    client = AsyncAnthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+    context_str = "\n\n".join(context)
+    prompt = f"Based on this context:\n{context_str}\n\nAnswer this query: {query}"
+    message = await client.messages.create(model="claude-3-5-sonnet-20241022", max_tokens=1000, messages=[{"role": "user", "content": prompt}])
+    return message.content[0].text
+```
+
+
 ## Week 3
 
 Implemented RAG to convert crawled content into a Facebook AI Similarity Search (FAISS) vector database for similarity-based retrieval. We also integrated the News API, allowing us to specify the number of websites our program should analyze for reporting. This eliminates the need for manually searching for news articles and making direct HTTP requests.
 
-This is a raw snippet:
 
-```
-hello world
-123
-This is a text snippet
-```
-
-This is a PHP snippet:
-
-```php
-<?php
-    echo 'Hello, World!';
-?>
-```
-
-This is a JavaScript snippet:
-
-```js
-const add = (a, b) => a + b
-const minus = (a, b) => a - b
-
-console.log(add(100,200))  // 300
-console.log(minus(100,200))  // -100
-```
-
-This is a Python snippet:
+This is a Python for fetching News Articles:
 
 ```python
-def say_hello():
-    print("hello world!")
-
-say_hello()   // "hello world!"
+async def get_news_articles(query: str, num_articles: int = 5):
+    try:
+        articles = newsapi.get_everything(q=query, language='en', sort_by='relevancy', page_size=num_articles)
+        return articles.get('articles', [])
+    except Exception as e:
+        print(f"News API error: {e}")
+        return []
 ```
+This is a Python for the RAG Pipeline Setup:
+
+```python
+def setup_rag(content: str):
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
+    chunks = text_splitter.split_text(content)
+    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2", model_kwargs={'device': 'cpu'}, encode_kwargs={'normalize_embeddings': False})
+    return FAISS.from_texts(chunks, embeddings)
+```
+
+
