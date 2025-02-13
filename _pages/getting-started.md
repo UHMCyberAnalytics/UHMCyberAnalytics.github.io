@@ -21,16 +21,18 @@ In your terminal run
 python3.11 -m venv myenv
 ```
 
-followed by
+followed by:
 
-for windows
+
 ```
 myenv/Scripts/Activate
 ```
-for mocOS/Linux
+for windows ^
 ```
 source myenv/bin/activate
 ```
+for mocOS/Linux ^
+
 ### Step 4) Install dependencies
 
 To install dependencies you must run 
