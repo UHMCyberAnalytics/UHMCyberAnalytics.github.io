@@ -4,9 +4,11 @@ title: Getting started
 permalink: /getting-started/
 ---
 
-### Step 1) Make sure you have pip and python installed on your computer.
+### Step 1) Make sure you have Docker is installed and running
 
-You must use Python Version 3.11.9, and create a virtual environment
+[Docker Install](https://www.docker.com/)
+
+![img]()
 
 ### Step 2) Clone the Repository
 
