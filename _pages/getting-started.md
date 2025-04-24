@@ -36,9 +36,16 @@ Click open container and it should look like this. Then open the local host link
 
 ### Step 5) Input Keys and Model
 
-After Inputing the model and keys you are now able to use the progream
+After Inputting the model and keys you are now able to use the program
 ![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/212ae5406a6e7ce6a4522bc7b8fc9304462e291f/images/input%20keys.png?raw=true)
 
 ![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/212ae5406a6e7ce6a4522bc7b8fc9304462e291f/images/input%20model.png?raw=true)
+
+### Closing the Program
+
+To close the Docker program just type the following in your terminal
+```
+docker-compose down
+```
 
 
