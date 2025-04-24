@@ -29,7 +29,7 @@ It should look like this after running the commands
 
 ### Step 4) Open New Build Container
 
-![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/212ae5406a6e7ce6a4522bc7b8fc9304462e291f/images/open%20container.png?raw=true)
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/70ef86856f62a5d34e06d3a1aa867948a7c43efd/images/open%20container.png?raw=true)
 
 Click open container and it should look like this. Then open the local host link
 ![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/27f77cfa88c0a3a7ad1aae000bb2cf8a1ff83994/images/open%20local%20host.png?raw=true)
