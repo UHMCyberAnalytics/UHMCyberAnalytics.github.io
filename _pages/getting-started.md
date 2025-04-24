@@ -3,56 +3,42 @@ layout: page
 title: Getting started
 permalink: /getting-started/
 ---
+### Step 1) Download the "Modern" repository on our GitHub
 
-### Step 1) Make sure you have Docker is installed and running
+[GitHub Repo](https://github.com/UHMCyberAnalytics/modern)
 
-[Docker Install](https://www.docker.com/)
+### Step 2) Make sure you have Docker is installed and running
 
-![img]()
+[Docker Install Link](https://www.docker.com/)
 
-### Step 2) Clone the Repository
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/212ae5406a6e7ce6a4522bc7b8fc9304462e291f/images/Docker.png?raw=true)
 
+### Step 3) Open Terminal and Build Docker Container
+
+##### Locate the GitHub repo you just downloaded in terminal and make you way towards the streamlit_app folder
+
+
+locate the modern folder then follow these commands
 ```
-git clone <url>
-cd <project-folder>
-``` 
-### Step 3) Create your virtual environment
+cd ollama
+cd streamlit_app
+docker-compose up -d build
+```
+It should look like this after running the commands
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/212ae5406a6e7ce6a4522bc7b8fc9304462e291f/images/DockerFin.png?raw=true)
 
-In your terminal run
-```
-python3.11 -m venv myenv
-```
+### Step 4) Open New Build Container
 
-followed by:
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/212ae5406a6e7ce6a4522bc7b8fc9304462e291f/images/open%20container.png?raw=true)
 
+Click open container and it should look like this. Then open the local host link
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/212ae5406a6e7ce6a4522bc7b8fc9304462e291f/images/open%20local%20host.png?raw=true)
 
-```
-myenv/Scripts/Activate
-```
-for windows
-```
-source myenv/bin/activate
-```
-for mocOS/Linux
+### Step 5) Input Keys and Model
 
-### Step 4) Install dependencies
+After Inputing the model and keys you are now able to use the progream
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/212ae5406a6e7ce6a4522bc7b8fc9304462e291f/images/input%20keys.png?raw=true)
 
-To install dependencies you must run 
-```
-pip install -r requirements.txt
-```
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/212ae5406a6e7ce6a4522bc7b8fc9304462e291f/images/input%20model.png?raw=true)
 
-### Step 5) Create .env file
-
-You must also create a .env file with a Claude API key and a News API key
-
-```
-NEWS_API_KEY=your_news_api_key = <key here>
-ANTHROPIC_API_KEY=your_anthropic_api_key = <key here>
-```
-
-## At this point, you should be good to run the program :)
-```
-python main.py
-```
 
