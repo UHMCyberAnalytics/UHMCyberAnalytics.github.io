@@ -3,7 +3,7 @@ layout: page
 title: Getting started
 permalink: /getting-started/
 ---
-### Step 1) Download the "Modern" repository on our GitHub
+### Step 1) Download the "Ollama" repository on our GitHub
 
 [GitHub Repo](https://github.com/UHMCyberAnalytics/modern)
 
@@ -18,11 +18,10 @@ permalink: /getting-started/
 ##### Locate the GitHub repo you just downloaded in terminal and make you way towards the streamlit_app folder
 
 
-locate the modern folder then follow these commands
+locate the streamlit_app folder then follow these commands
 ```
-cd ollama
 cd streamlit_app
-docker-compose up -d build
+docker-compose up -d --build
 ```
 It should look like this after running the commands
 ![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/27f77cfa88c0a3a7ad1aae000bb2cf8a1ff83994/images/DockerFin.png?raw=true)
