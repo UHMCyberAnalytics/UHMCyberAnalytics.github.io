@@ -3,7 +3,7 @@ layout: post
 title:  Building The Tool
 ---
 
-![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/3e9e10437d7eaa7b068ca25b9ee5741eb07d39d9/images/pipline.png?raw=true)
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/6d2d34b49c5748fb5d196497c70102259ceffbb8/images/pipline.png?raw=true)
 
 ## Week 1
 
@@ -50,5 +50,19 @@ def setup_rag(content: str):
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2", model_kwargs={'device': 'cpu'}, encode_kwargs={'normalize_embeddings': False})
     return FAISS.from_texts(chunks, embeddings)
 ```
+
+
+## Week 4
+
+This is the chatbot interface we developed for querying threat intelligence about hackers from specific regions. It provides categorized, detailed insights on groups like APT1, APT3, and APT41.
+
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/6d2d34b49c5748fb5d196497c70102259ceffbb8/images/main.png?raw=true)
+
+## Week 5
+
+The chart below visualizes Google search trends over the past year for the keyword "hackers" across several countries, including China, Russia, North Korea, and Iran. This helps us understand public interest patterns and potential spikes in cyber-related activity.
+
+![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/6d2d34b49c5748fb5d196497c70102259ceffbb8/images/trends.png?raw=true)
+
 
 
