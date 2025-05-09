@@ -11,7 +11,7 @@ permalink: /getting-started/
 
 [Docker Install Link](https://www.docker.com/)
 
-![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/27f77cfa88c0a3a7ad1aae000bb2cf8a1ff83994/images/Docker.png?raw=true)
+![Docker](../images/Docker.png)
 
 ### Step 3) Open Terminal and Build Docker Container
 
@@ -24,21 +24,22 @@ cd streamlit_app
 docker-compose up -d --build
 ```
 It should look like this after running the commands
-![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/27f77cfa88c0a3a7ad1aae000bb2cf8a1ff83994/images/DockerFin.png?raw=true)
+![Docker](../images/DockerFin.png)
 
 ### Step 4) Open New Build Container
 
-![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/70ef86856f62a5d34e06d3a1aa867948a7c43efd/images/open%20container.png?raw=true)
+![container](../images/open container.png)
 
 Click open container and it should look like this. Then open the local host link
-![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/27f77cfa88c0a3a7ad1aae000bb2cf8a1ff83994/images/open%20local%20host.png?raw=true)
+![local host](../images/open local host.png)
 
 ### Step 5) Input Keys and Model
 
 After Inputting the model and keys you are now able to use the program
-![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/212ae5406a6e7ce6a4522bc7b8fc9304462e291f/images/input%20keys.png?raw=true)
+![input](../images/input keys.png)
 
-![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/212ae5406a6e7ce6a4522bc7b8fc9304462e291f/images/input%20model.png?raw=true)
+
+![input](../images/input model.png)
 
 ### Closing the Program
 

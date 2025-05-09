@@ -3,7 +3,7 @@ layout: post
 title:  Building The Tool
 ---
 
-![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/6d2d34b49c5748fb5d196497c70102259ceffbb8/images/pipline.png?raw=true)
+![Pipeline](../images/pipline.png)
 
 ## Week 1
 
@@ -56,13 +56,13 @@ def setup_rag(content: str):
 
 This is the chatbot interface we developed for querying threat intelligence about hackers from specific regions. It provides categorized, detailed insights on different APT groups.
 
-![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/6d2d34b49c5748fb5d196497c70102259ceffbb8/images/main.png?raw=true)
+![Main](../images/main.png)
 
 ## Week 5
 
 The chart below visualizes Google search trends over the past year for hackers across several countries, including China, Russia, North Korea, and Iran. This helps us understand public interest patterns and potential spikes in cyber-related activity.
 
-![img](https://github.com/UHMCyberAnalytics/UHMCyberAnalytics.github.io/blob/6d2d34b49c5748fb5d196497c70102259ceffbb8/images/trends.png?raw=true)
+![trends](../images/trends.png)
 
 
 
